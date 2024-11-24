@@ -79,4 +79,15 @@ pip install numpy pandas matplotlib nltk scikit-learn
 2. Place the Restaurant_Reviews.tsv file in the project directory.
 3. Run the Python script.
 
+## Repository Structure
+```bash
+.
+├── Restaurant_Reviews.tsv    # Dataset
+├── README.md                 # Project description
+└── sentiment_analysis.py     # Python script for text classification
+```
+## Results
+The Naive Bayes classifier achieved an accuracy of 73% on the test set. This can be improved by:
+- Using advanced text representations like TF-IDF or word embeddings.
+- Experimenting with other classifiers like SVM or Neural Networks.
 
