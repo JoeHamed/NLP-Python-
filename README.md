@@ -40,3 +40,23 @@ The dataset, `Restaurant_Reviews.tsv`, contains 1,000 reviews from customers wit
 
 ### 5. Confusion Matrix
 Evaluated model performance:
+[[55 42] [12 91]]
+
+- True Positives: 91
+- True Negatives: 55
+- False Positives: 42
+- False Negatives: 12
+
+---
+
+## Predicting a Single Review
+You can predict whether a single review is positive or negative using the trained model. Example:
+```python
+review = "I love this restaurant so much"
+# Preprocess the review...
+new_y_pred = classifier.predict(new_X_test)
+if new_y_pred == 1:
+    print('Positive')
+else:
+    print('Negative')
+```
