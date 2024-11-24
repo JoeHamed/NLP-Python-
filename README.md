@@ -64,8 +64,13 @@ else:
 ## How to Run
 ### Prerequisites
 Ensure the following libraries are installed:
-- numpy
-- pandas
-- matplotlib
-- nltk
-- scikit-learn
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `nltk`
+- `scikit-learn`
+
+### Install dependencies:
+```bash
+pip install numpy pandas matplotlib nltk scikit-learn
+```
