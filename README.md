@@ -40,7 +40,8 @@ The dataset, `Restaurant_Reviews.tsv`, contains 1,000 reviews from customers wit
 
 ### 5. Confusion Matrix
 Evaluated model performance:
-[[55 42] [12 91]]
+### [[55 42]
+### [12 91]]
 
 - True Positives: 91
 - True Negatives: 55
