@@ -74,3 +74,9 @@ Ensure the following libraries are installed:
 ```bash
 pip install numpy pandas matplotlib nltk scikit-learn
 ```
+### Steps
+1. Clone the repository.
+2. Place the Restaurant_Reviews.tsv file in the project directory.
+3. Run the Python script.
+
+
